@@ -1,0 +1,10 @@
+<html>
+<head>
+  <script src="script.js"></script>
+</head>
+<body onload="graph = new graph(document.getElementById('canvas'));">
+
+<canvas id="canvas" style="border: 1px solid #000000;" height="400" width="400"></canvas>
+
+<button type="button" name="button" onclick="graph.addVertexStart()">add vertex</button>
+<button type="button" name="button" onclick="graph.addEdgeStart()">add edge</button>
